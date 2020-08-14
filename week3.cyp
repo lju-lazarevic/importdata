@@ -2,6 +2,7 @@ CREATE INDEX ON :GetFitNowCheckIn(date);
 CREATE INDEX ON :FacebookEvent(date, eventId);
 CREATE INDEX ON :Person(id);
 CREATE INDEX ON :License(licenseNo);
+CREATE INDEX ON :Vehicle(licenseNo);
 CREATE INDEX ON :GetFitNow(id);
 CREATE INDEX ON: Person(name);
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/lju-lazarevic/importdata/master/crime_scene_report.csv" AS row
